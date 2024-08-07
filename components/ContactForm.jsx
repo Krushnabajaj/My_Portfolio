@@ -1,12 +1,12 @@
 // components/ContactForm.js
 export default function ContactForm() {
-    return (
+  return (
       <form
-        name="contact"
-        method="POST"
-        netlify
-        data-netlify="true"
-        action="/success" // Optional: Redirect after form submission
+          name="contact"
+          method="POST"
+          netlify
+          data-netlify="true"
+          action="/success" // Optional: Redirect after form submission
       >
         <input type="hidden" name="form-name" value="contact" />
         <p>
@@ -31,6 +31,5 @@ export default function ContactForm() {
           <button type="submit">Send</button>
         </p>
       </form>
-    );
-  }
-  
+  );
+}
